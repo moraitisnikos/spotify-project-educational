@@ -1,0 +1,93 @@
+.nav-list-content{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 400px;
+    cursor: pointer;
+    padding-top: 5px
+    
+}
+.nav-list{
+    background-color: black;
+    min-height: 50px;
+}
+.nav-list-content > li > a {
+    text-decoration: none;
+    color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-block: 2rem;
+    grid-auto-rows: minmax(150px, auto);
+
+}
+.nav-list-left{
+    list-style-type: none;
+    text-align: start;
+    display: grid;
+    gap: 2rem;
+}
+.nav-list-left > li > a:hover{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    border-width: 0px 10px 0px 10px;
+
+}
+.nav-list-left > li > a {
+    text-decoration: none;
+    color: black;
+}
+.flexbox-shows-see{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: lightblue;
+}
+.flexbox-shows-see > * {
+    padding: 10px;
+}
+.flexbox-cards{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    flex-shrink: 1;
+}
+img{
+    max-width: 150px;
+}
+.happy-puppy{
+    height: 60px;
+    width: 60px;
+}
+.flex-playlist-left > span{
+    margin-left: 5px;
+}
+.bi{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#customRange1{
+    max-width: 200px;
+}
+.flex-playlist{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkcyan;
+    color: white;
+    min-height: 100px;
+    position: fixed;
+    bottom: 1px;
+    min-width: 100%;
+}
+.flex-playlist-right{
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.flex-playlist-right > * {
+    flex-basis: 1;
+}
